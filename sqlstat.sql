@@ -1,4 +1,4 @@
-REM
+REM 
 REM $Header: sqlstat.sql 1.0.0 2025/03/21 marcus.v.pedro $
 REM
 REM Copyright (c) 2025, All rights reserved.
