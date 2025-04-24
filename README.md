@@ -2,7 +2,7 @@
 
 On this repository, I'll start sharing some scripts that I use in daily basis and I've created.
 
-[sqlstat.sql](https://github.com/vinidba/dba_scripts/blob/master/sqlstat.sql).
+##[sqlstat.sql](https://github.com/vinidba/dba_scripts/blob/master/sqlstat.sql).
 
 Script to check the history of performance metrics for a given SQL_ID and interval of days.
 
@@ -16,7 +16,7 @@ For example, to check the performance metrics for the SQL_ID b7s3d3y5sj4wr for t
 SQL> @sqlstat b7s3d3y5sj4wr 15
 ```
 
-[vini_coe_load_sql_baseline.sql](https://github.com/vinidba/dba_scripts/blob/master/vini_coe_load_sql_baseline.sql)
+##[vini_coe_load_sql_baseline.sql](https://github.com/vinidba/dba_scripts/blob/master/vini_coe_load_sql_baseline.sql)
 
 
 Script to create a SQL Plan Baseline for a SQL (Original SQL) using the Execution Plan from another SQL (Modified SQL).
