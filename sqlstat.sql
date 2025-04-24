@@ -1,3 +1,40 @@
+REM
+REM $Header: sqlstat.sql 1.0.0 2025/03/21 marcus.v.pedro $
+REM
+REM Copyright (c) 2025, All rights reserved.
+REM
+REM AUTHOR
+REM   Marcus Vinicius Miguel Pedro
+REM   Accenture Enkitec Group
+REM   https://www.viniciusdba.com.br/blog
+REM   https://www.linkedin.com/in/viniciusdba
+REM
+REM SCRIPT
+REM   sqlstat.sql
+REM
+REM DESCRIPTION
+REM   This script shows the performance metrics for a given SQL_ID and interval of days
+REM
+REM PRE-REQUISITES
+REM   1. Be granted with SELECT_ANY_DICTIONARY privilege.
+REM
+REM PARAMETERS
+REM   1. SQL_ID (required)
+REM   2. Number of Days (required)
+REM
+REM EXECUTION
+REM   1. Connect into SQL*Plus as user with access to data dictionary
+REM   2. Execute script sqlstat.sql passing parameters
+REM      inline or until requested by script.
+REM
+REM EXAMPLE
+REM   # sqlplus system
+REM   SQL> START sqlstat.sql gnjy0mn4y9pbm 30
+REM
+REM NOTES
+REM   1. This script works on 10g or higher
+REM
+
 alter session set nls_date_format='DD-MM-YYYY HH24:MI:SS';
 set lines 200 pages 200
 
